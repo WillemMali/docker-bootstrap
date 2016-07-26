@@ -11,7 +11,7 @@ apt-get install apt-transport-https ca-certificates
 apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 
 # install docker source
-sudo cp docker.list /etc/apt/sources.list
+sudo cp docker.list /etc/apt/sources.list.d/
 
 # install docker-engine
 apt-get update
